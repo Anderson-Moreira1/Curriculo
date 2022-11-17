@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+header{
+    position: relative;
+}
+body{
+    display: flex;
+    background-image: linear-gradient(to top left, rgb(12,22,168),rgb(0,047,92),rgb(121,14,131));
+    max-width: 1280px;
+    min-width: 300px;  
+    box-sizing: border-box; 
+    margin: auto;
+    
+    color: #ffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px; 
+}
+
+img#foto-perfil {
+    position: relative;
+    top: 20px;
+    left: 40%;
+    border: 1.4px solid #00082F; 
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+    box-shadow: 2px 2px 5px 2px black;  
+}
+
+.nome-perfil{
+    position: relative;
+    top: 20px;
+    left: 40%;
+
+    margin-top: 10px;
+    
+}
+
+
+.resumo-perfil{
+    margin-top: 50px;
+    border-top: 1px solid rgb(241, 239, 239);
+    
+}
+
+fieldset#div-pai{
+    display: inline-block;
+    max-width: 800px;
+    min-width: 300px;
+    box-sizing: border-box;
+    
+    height: 0 auto;
+    margin: auto;
+    
+    line-height: normal;
+    text-align: justify;
+    padding: 30px;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 9px 1px black; ;
+}
+
+
+
+.rodape-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
